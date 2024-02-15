@@ -1,0 +1,43 @@
+@font-face {
+    font-family:Ubuntu ;
+    src: url(Fonts/Ubuntu-BoldItalic.ttf);
+}
+h1{
+  background-color:rgba(255, 205, 4, 0.887);
+  /* opacity: 0.5; */
+  font-size: 42px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-weight: lighter;
+ 
+}
+p{
+    /* font-family:  Courier, monospace; */
+    /* font-family: Ubuntu; */
+    /* font-weight: bold; */
+    /* font-style: oblique;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 3px;
+    word-spacing: 30px; */
+    text-align: justify;
+    text-indent: 70px;
+ 
+}
+body{
+    background-image: url("image/car.webp");
+}
+a{
+    text-decoration: none;
+}
+h1:first-letter{
+ color: crimson;
+ font-size: 100px;
+}
+p:first-line{
+    color: coral;
+}
+h1:hover{
+    text-shadow: 20px 20px 2px paleturquoise;
+}
